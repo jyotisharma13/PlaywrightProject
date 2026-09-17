@@ -1,5 +1,5 @@
 import {chormium}from"playwright";
-async function multiUserTest{
+async function multiUserTest(){
     let browser = await chromium.launch({headless:false});
     //Admin
     let AdminContext= await browser.newContext();
