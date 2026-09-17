@@ -43,13 +43,18 @@ By default tests run across Chromium, Firefox, and WebKit as configured in `play
 ```
 .
 ├── tests/
-│   └── 01_Basics/
-│       ├── example.spec.js       # Sample Playwright tests (playwright.dev)
-│       └── tta-check.spec.js     # Login flow test for thetestingacademy.com
+│   ├── 01_Basics/
+│   │   ├── 216_example.spec.js      # Sample Playwright tests (playwright.dev)
+│   │   ├── 217_multiple_context.js  # Multiple browser contexts (admin + viewer)
+│   │   ├── 218_normal_pw.js         # Placeholder for notes/practice
+│   │   └── 219_tta-check.spec.js    # Login flow test for thetestingacademy.com
+│   └── 02_TestAnnotations/ ... 23_Advance_PW_Framework/   # Topic folders for upcoming tests
 ├── playwright.config.js      # Playwright configuration
 ├── package.json              # Scripts and dependencies
 └── README.md
 ```
+
+Only files matching the `*.spec.js` naming pattern are picked up and executed by the Playwright test runner. Plain `.js` files in the folder are standalone scripts and are not run by `npm test`.
 
 ## Configuration
 
