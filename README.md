@@ -43,8 +43,9 @@ By default tests run across Chromium, Firefox, and WebKit as configured in `play
 ```
 .
 ├── tests/
-│   ├── example.spec.js       # Sample Playwright tests (playwright.dev)
-│   └── tta-check.spec.js     # Login flow test for thetestingacademy.com
+│   └── 01_Basics/
+│       ├── example.spec.js       # Sample Playwright tests (playwright.dev)
+│       └── tta-check.spec.js     # Login flow test for thetestingacademy.com
 ├── playwright.config.js      # Playwright configuration
 ├── package.json              # Scripts and dependencies
 └── README.md
