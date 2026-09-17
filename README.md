@@ -47,7 +47,9 @@ By default tests run across Chromium, Firefox, and WebKit as configured in `play
 │   │   ├── 216_example.spec.js      # Sample Playwright tests (playwright.dev)
 │   │   ├── 217_multiple_context.js  # Multiple browser contexts (admin + viewer)
 │   │   ├── 218_normal_pw.js         # Single-user script (launch, navigate, read title)
-│   │   └── 219_tta-check.spec.js    # Login flow test for thetestingacademy.com
+│   │   ├── 219_tta-check.spec.js    # Login flow test for thetestingacademy.com
+│   │   ├── 220_BCP.spec.js          # Browser context and page test
+│   │   └── 221_TA.spec.js           # TTA navigation and multi-context (three roles) test
 │   └── 02_TestAnnotations/ ... 23_Advance_PW_Framework/   # Topic folders for upcoming tests
 ├── playwright.config.js      # Playwright configuration
 ├── package.json              # Scripts and dependencies
