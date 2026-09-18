@@ -52,7 +52,8 @@ By default tests run across Chromium, Firefox, and WebKit as configured in `play
 │   │   ├── 221_TA.spec.js           # TTA navigation and multi-context (three roles) test
 │   │   └── 222_Test_Options.spec.js # Context options and mobile browser emulation test
 │   ├── 02_TestAnnotations/
-│   │   └── 223_TestAnnotations.spec.js # Test annotations (skip, only, fail, fixme, slow)
+│   │   ├── 223_TestAnnotations.spec.js # Test annotations (skip, only, fail, fixme, slow)
+│   │   └── 224_TestDescribe.spec.js # Grouping tests with test.describe
 │   └── 03_Locator_Commands/ ... 23_Advance_PW_Framework/   # Topic folders for upcoming tests
 ├── playwright.config.js      # Playwright configuration
 ├── package.json              # Scripts and dependencies
