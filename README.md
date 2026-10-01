@@ -55,11 +55,14 @@ By default tests run across Chromium, Firefox, and WebKit as configured in `play
 │   │   ├── 223_TestAnnotations.spec.js # Test annotations (skip, only, fail, fixme, slow)
 │   │   └── 224_TestDescribe.spec.js # Grouping tests with test.describe
 │   ├── 03_Locator_Commands/
-│   │   ├── 15sept_Home_work.spec.js # CURA login failure test (XPath/CSS locators)
-│   │   ├── 225_LC.spec.js           # Page navigation with waitUntil options and referrer
-│   │   ├── 226_Refere.spec.js       # Context-level referer via extraHTTPHeaders
-│   │   ├── 227_Fresh.spec.js        # CSS locators on VWO login (fill, click, error text)
-│   │   └── 228_Project3.spec.js     # VWO free-trial form validation with XPath locators
+│   │   ├── 15sept_Home_work.spec.js  # CURA login failure test (XPath/CSS locators)
+│   │   ├── 17Sept_home_work.spec.js  # TTA multiple-element-filter login with Remember me
+│   │   ├── 225_LC.spec.js            # Page navigation with waitUntil options and referrer
+│   │   ├── 226_Refere.spec.js        # Context-level referer via extraHTTPHeaders
+│   │   ├── 227_Fresh.spec.js         # CSS locators on VWO login (fill, click, error text)
+│   │   ├── 228_Project3.spec.js      # VWO free-trial form validation with XPath locators
+│   │   ├── 229_getByRole.spec.js     # VWO login role-based locators and error message
+│   │   └── 230_getByRole.spec.js     # VWO login getByRole textbox fill example
 │   └── ... 23_Advance_PW_Framework/   # Topic folders for upcoming tests
 ├── playwright.config.js      # Playwright configuration
 ├── package.json              # Scripts and dependencies

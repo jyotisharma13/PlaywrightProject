@@ -24,3 +24,6 @@ npm-debug.log*
 
 # Command Code local metadata
 .commandcode/
+
+# Playwright MCP local logs/cache
+.playwright-mcp/

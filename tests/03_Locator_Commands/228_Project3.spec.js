@@ -11,5 +11,5 @@ await page.locator("//button[@data-qa='page-su-submit']").first().click();
 let errorMessage1 = page.locator("//div[contains(@class,'invalid-reason')]").first();
 let errorMessageText = await errorMessage1.textContent();
 await expect(errorMessageText).toContain("Die von dir eingegebene E-Mail-Adresse ist falsch.");
-
+//await page.pause();
 })
