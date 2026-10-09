@@ -63,6 +63,8 @@ By default tests run across Chromium, Firefox, and WebKit as configured in `play
 │   │   ├── 228_Project3.spec.js      # VWO free-trial form validation with XPath locators
 │   │   ├── 229_getByRole.spec.js     # VWO login role-based locators and error message
 │   │   └── 230_getByRole.spec.js     # CURA login getByRole link click and heading assertion
+│   ├── 05_Allure_reporting/
+│   │   └── 234_customReporter.spec.js # Custom Playwright reporter test (placeholder)
 │   └── ... 23_Advance_PW_Framework/   # Topic folders for upcoming tests
 ├── playwright.config.js      # Playwright configuration
 ├── package.json              # Scripts and dependencies
