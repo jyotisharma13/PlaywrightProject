@@ -6,7 +6,9 @@ test("verify forgotten passwrod button is clickable", async({page})=>
     console.log(rightPanelLinksTexts.length);
 
     for(const link of rightPanelLinksTexts){
-        console.log("link",link);
+        console.log("link",link
+            
+        );
         //console.log(link.getAttribute('href'));
     }
     for(const linkText of rightPanelLinksTexts){

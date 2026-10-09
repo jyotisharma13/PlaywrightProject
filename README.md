@@ -63,7 +63,11 @@ By default tests run across Chromium, Firefox, and WebKit as configured in `play
 │   │   ├── 228_Project3.spec.js      # VWO free-trial form validation with XPath locators
 │   │   ├── 229_getByRole.spec.js     # VWO login role-based locators and error message
 │   │   └── 230_getByRole.spec.js     # CURA login getByRole link click and heading assertion
+│   ├── 04_Session_Storage/
+│   │   ├── 231_SessionStorage.js     # Standalone script saving VWO login storage state
+│   │   └── 232_TestWingify.spec.js   # Reuses saved storageState to open VWO dashboard
 │   ├── 05_Allure_reporting/
+│   │   ├── 233_testWingifyCustomReporter.spec.js # Wingify dashboard test via storageState
 │   │   └── 234_customReporter.spec.js # Custom Playwright reporter test (placeholder)
 │   ├── 06_Multiple_Element_Filter/
 │   │   ├── 235_Me.spec.js             # TTA filter: collect link texts, click Forgotten Password
