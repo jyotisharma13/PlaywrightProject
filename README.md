@@ -65,6 +65,9 @@ By default tests run across Chromium, Firefox, and WebKit as configured in `play
 │   │   └── 230_getByRole.spec.js     # CURA login getByRole link click and heading assertion
 │   ├── 05_Allure_reporting/
 │   │   └── 234_customReporter.spec.js # Custom Playwright reporter test (placeholder)
+│   ├── 06_Multiple_Element_Filter/
+│   │   ├── 235_Me.spec.js             # TTA filter: collect link texts, click Forgotten Password
+│   │   └── 236_Me.spec.js             # TTA filter: collect links and their href attributes
 │   └── ... 23_Advance_PW_Framework/   # Topic folders for upcoming tests
 ├── playwright.config.js      # Playwright configuration
 ├── package.json              # Scripts and dependencies
